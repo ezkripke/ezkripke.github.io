@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #209cee;
+}
+
+#about {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+@media (min-width:320px)  { 
+    body { width: 85% }
+}
+@media (min-width:641px)  { 
+    body { width: 65% }
+}
+@media (min-width:961px)  { 
+    body {width: 55% }
+}
+@media (min-width:1025px) {
+    body {width: 45% }
+}
+@media (min-width:1281px) { 
+    body {width: 45% }
+}
