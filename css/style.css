@@ -6,16 +6,20 @@ body {
     padding-top: 50px;
 }
 
+b {
+    font-weight: bolder;
+}
+
 #header {
     padding: 0 0;
-    border-bottom: 1px solid #209cee;
+    border-bottom: 1px solid #007bff;
 }
 
 #about {
-    padding-left: 0;
+    padding-left: 0; /*overriding bootstrap nonsense*/
     padding-right: 0;
     padding-top: 15px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .icon-link {
