@@ -20,6 +20,7 @@ b {
     padding-left: 0; /*overriding bootstrap nonsense*/
     padding-right: 0;
     padding-top: 15px;
+    padding-bottom: 40px;
     font-size: 18px;
 }
 
@@ -33,7 +34,7 @@ html {
     bottom: 0;
     border-top: 1px solid rgba(0, 123, 255, 0.3);
     height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
+    line-height: 60px; /* Vertically center the text there*/
     margin-bottom: 8px;
 }
 
@@ -50,10 +51,12 @@ a:hover {
 @media (min-width:320px) {
     body { width: 90% }
     .footer {width: 90% } 
+    #about {font-size: 16px;}
 }
 @media (min-width:641px) {
     body { width: 75% } 
     .footer {width: 75% }
+    #about {font-size: 18px;}
 }
 @media (min-width:961px) {
     body { width: 60% } 
