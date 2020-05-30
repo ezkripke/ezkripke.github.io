@@ -3,7 +3,8 @@ body {
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 40px;
 }
 
 b {
@@ -22,24 +23,43 @@ b {
     font-size: 18px;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid rgba(0, 123, 255, 0.3);
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    margin-bottom: 8px;
+}
+
 .icon-link {
     color: #212529;
     font-size: 40px;
 }
 
 a:hover {
+    color: #007bff;
     text-decoration: none;
 }
 
 @media (min-width:320px) {
-    body { width: 90% } 
+    body { width: 90% }
+    .footer {width: 90% } 
 }
 @media (min-width:641px) {
     body { width: 75% } 
+    .footer {width: 75% }
 }
 @media (min-width:961px) {
     body { width: 60% } 
+    .footer {width: 60% }
 }
 @media (min-width:1281px) {
-    body { width: 45% } 
+    body { width: 45% }
+    .footer {width: 45% }
 }
