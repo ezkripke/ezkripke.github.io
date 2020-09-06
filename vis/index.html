@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CS171 - Final Project</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="main" class="container-fluid">
+		<div class="header">
+			<span class="note">This is a visualization I created as part of a <a href="https://ethankripke.com/171-final-project/">larger team final project</a> for a data visualization course.</span>
+
+			<h4>Proportion of Incarcerated Race Population to State Race Population</h4>
+		</div>
+		Represented by bubble area. Hover over bubble for percentage, or state label to see percentage point comparison.
+		
+
+		<div class="row">
+			<div class="col-md-12">
+				<div id="bubble-area" class="bubble-vis"></div>
+			</div>
+		</div>
+		<div class="data-source">
+			Source: Prison Policy Initiative. Data reflects values as of 2010.
+		</div>
+
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/queue.min.js"></script>
+	<script src="js/d3.min.js"></script>
+	<script src="js/d3-tip.js"></script>
+	<script src="js/d3-legend.min.js"></script>
+	<script src="js/d3-scale-chromatic.min.js"></script>
+	
+	<script src="js/bubbleVis.js"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+</html>

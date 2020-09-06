@@ -1,0 +1,52 @@
+stateName,state,row,col,party
+Alaska,AK,0,0,R
+Maine,ME,0,10,D
+Wisconsin,WI,1,5,R
+Vermont,VT,1,9,D
+New Hampshire,NH,1,10,D
+Washington,WA,2,0,D
+Idaho,ID,2,1,R
+Montana,MT,2,2,R
+North Dakota,ND,2,3,R
+Minnesota,MN,2,4,D
+Illinois,IL,2,5,D
+Michigan,MI,2,6,R
+New York,NY,2,8,D
+Massachusetts,MA,2,9,D
+Oregon,OR,3,0,D
+Nevada,NV,3,1,D
+Wyoming,WY,3,2,R
+South Dakota,SD,3,3,R
+Iowa,IA,3,4,R
+Indiana,IN,3,5,R
+Ohio,OH,3,6,R
+Pennsylvania,PA,3,7,R
+New Jersey,NJ,3,8,D
+Connecticut,CT,3,9,D
+Rhode Island,RI,3,10,D
+California,CA,4,0,D
+Utah,UT,4,1,R
+Colorado,CO,4,2,D
+Nebraska,NE,4,3,R
+Misssouri,MO,4,4,R
+Kentucky,KY,4,5,R
+West Virginia,WV,4,6,R
+Virginia,VA,4,7,D
+Maryland,MD,4,8,D
+Delaware,DE,4,9,D
+Arizona,AZ,5,1,R
+New Mexico,NM,5,2,D
+Kansas,KS,5,3,R
+Arkansas,AR,5,4,R
+Tennessee,TN,5,5,R
+North Carolina,NC,5,6,R
+South Carolina,SC,5,7,R
+Washington DC,DC,5,8,D
+Oklahoma,OK,6,3,R
+Louisiana,LA,6,4,R
+Mississippi,MS,6,5,R
+Alabama,AL,6,6,R
+Georgia,GA,6,7,R
+Hawaii,HI,7,0,D
+Texas,TX,7,3,R
+Florida,FL,7,8,R

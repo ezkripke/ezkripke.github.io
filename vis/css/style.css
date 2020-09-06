@@ -1,0 +1,137 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Muli", sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#main {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+}
+
+.header {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.note {
+    font-size: 14px;
+}
+
+.bubble-vis {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1080px;
+    border: 1px solid white;
+}
+
+.bubble {
+    stroke: white;
+    stroke-width: 0.75px;
+}
+
+.x-axis-bubble {
+    stroke: white;
+}
+
+.x-axis-bubble line,
+.x-axis-bubble path,
+.x-axis-bubble,
+.y-axis-bubble line,
+.y-axis-bubble path,
+.y-axis-bubble{
+    stroke: white;
+}
+
+.percentage-point-diff {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.node-label {
+    fill: white;
+    background-color: black;
+    font-size: 12px;
+}
+
+.legendLabels {
+    font-size: 12px;
+}
+
+.legendTitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 14px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: whitesmoke;
+    border: 0px;
+    pointer-events: none;
+}
+
+
+#tile-grid-row {
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    padding: 40px;
+}
+
+h5 {
+    margin-left: 280px;
+    fill: white;
+    font-size: small;
+    font-style: italic;
+}
+
+.value-scale {
+    display: inline-block;
+    width: 50px;
+    border: 1px solid #6c757d;
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 530px;
+}
+
+/* http://bl.ocks.org/lwhitaker3/e8090246a20d9515789b */
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: rgba(43,43,43, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+.axisWhite line{
+    stroke: white;
+}
+
+.axisWhite path{
+    stroke: white;
+}
+
+.axisWhite text{
+    fill: white;
+}
+
+.text-main {
+    color: black;
+    padding-bottom: 1px;
+}
+
+.data-source {
+    text-align: left;
+    color: darkgray;
+    font-style: italic;
+}
