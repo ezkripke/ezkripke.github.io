@@ -1,0 +1,13 @@
+# no plugin minimal vimrc
+inoremap jk <Esc>
+vnoremap jk <Esc>
+map 0 ^
+set nu rnu
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set hls is ic
+nnoremap <CR> :noh<CR>
+set backspace=indent,eol,start
+syntax on
+set nocompatible

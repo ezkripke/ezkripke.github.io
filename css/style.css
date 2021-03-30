@@ -17,7 +17,7 @@ b {
 }
 
 #about {
-    padding-left: 0; /*overriding bootstrap nonsense*/
+    padding-left: 0; 
     padding-right: 0;
     padding-top: 15px;
     padding-bottom: 40px;
@@ -46,6 +46,10 @@ html {
 a:hover {
     color: #007bff;
     text-decoration: none;
+}
+
+.sm {
+   font-size: 18px; 
 }
 
 @media (min-width:320px) {
