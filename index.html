@@ -14,7 +14,7 @@
     <!-- styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Serif Pro">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index_style.css">
 
     <!-- scripts -->
     <script src="https://kit.fontawesome.com/41807ab84b.js" crossorigin="anonymous"></script>
@@ -23,71 +23,23 @@
 </head>
 
 <body>
-
-    <div id="header" class="container-fluid">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-start"> 
-                <h1>Ethan Kripke</h1>
-            </div>
+    <p class="text-center">Are you looking for</p>
+    <div style="margin:0; padding:0; height:50px;"></div>
+    <div class="row choices">
+        <div class="col-md-5 border" onclick="location.href='computer.html';" >
+            <div style="margin:0; padding:0; height:20px;"></div>
+            <p class="text-center">Computer Ethan</p>
+            <p class="text-center" style="font-size:50px">🖥️</p>
+        </div>
+        <div class="col-md-2">
+            <p class="text-center align-middle">or</p>
+        </div>
+        <div class="col-md-5 border" onclick="location.href='music.html';">
+            <div style="margin:0; padding:0; height:20px;"></div>
+            <p class="text-center">Music Ethan</p>
+            <p class="text-center" style="font-size:50px">🥁</p>
         </div>
     </div>
-
-    <div id="about" class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <p> 
-                    Hi there! I'm Ethan.
-                </p>
-                <p>
-                    I'm a Software Engineer at Google.
-                    I studied Computer Science at Harvard University, graduating (virtually, in my bathrobe) in 2020.
-                    Like all software engineers nowadays, I need to have a landing page so people think I know what I'm doing. 
-                    So this is it, welcome! 
-                </p>
-                <p>
-                    <b>Things I made to dazzle and entertain</b>:
-                    <ul style="margin-top:-10px">
-                        <li><a href="vis/index.html" target="_blank">U.S. prison population vis with d3.js</a></li>
-                        <li><a href="https://github.com/ezkripke/bloom-lib" target="_blank">Bloom filter library for C/C++</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=YIagZa9cg5w" target="_blank">"Sweet Adeline" sung by Sock Puppets</a></li>
-                    </ul>
-                </p>
-                <p style="margin-top:-25px">
-                    <b>3 Second Resume</b> (See <a class="icon-link" href="/files/resume.pdf"><i class="fas fa-file sm"></i></a> for more)
-                    <ul style="margin-top:-22.5px">
-                        <li> C++, Python, C, and to a lesser extent Java and Javascript</li>
-                        <li>[2020...] Google: internal infrastructure, rpc proxying</li>
-                        <li>[2019] Corrux: CAN bus signal trace data analysis, cars and <a href="img/excavator.jpg" target="_blank">excavators</a></li>
-                        <li>[2018] Navy: data munging software tools for <a href="img/ship.jpg" target="_blank">hardware</a> engineers 
-                    </ul>
-                </p>
-                <p>
-                    I'm enthusiastic about systems, networks, security, and professors who <a href="no_css.html">use no CSS on their website</a>.
-                    I play the drums -- I've been in Jazz ensembles, drumlines, disco bands, theater pits, and punk groups. 
-                    I like to cook, sharpen kitchen knives on a whetstone, play chess, and run. 
-                </p>
-
-            </div>
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="row">
-            <div class="col-6 d-flex">
-                ethankripke[at]gmail
-            </div>
-            <div class="col-6 d-flex justify-content-end">
-                <span>
-                    <a class="icon-link" href="https://github.com/ezkripke/"">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a class="icon-link" href="/files/resume.pdf">
-                        <i class="fas fa-file"></i>
-                    </a>
-                </span>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>

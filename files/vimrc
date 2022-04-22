@@ -4,8 +4,8 @@ vnoremap jk <Esc>
 map 0 ^
 set nu rnu
 set smarttab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 set hls is ic
 nnoremap <CR> :noh<CR>
 set backspace=indent,eol,start
